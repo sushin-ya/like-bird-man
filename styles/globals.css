@@ -29,10 +29,12 @@ section {
 .text {
   width: 80vw;
   line-height: 0.9em;
+  user-select: none;
 }
 
 .author {
   color: white;
   opacity: 0.8;
   align-self: flex-end;
+  user-select: none;
 }
