@@ -24,7 +24,11 @@ export default function One() {
         {content.split('').map((value, index) => (
           <span
             key={index}
-            className={value !== ' ' ? 'one-' + value.toLowerCase() : null}
+            className={
+              value !== ' ' && value !== '.' && value !== ',' && value !== "'"
+                ? 'one-' + value.toLowerCase()
+                : null
+            }
           >
             {value}
           </span>

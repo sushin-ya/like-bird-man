@@ -24,7 +24,11 @@ export default function Two() {
         {content.split('').map((value, index) => (
           <span
             key={index}
-            className={value !== ' ' ? 'two-' + value.toLowerCase() : null}
+            className={
+              value !== ' ' && value !== '.' && value !== ',' && value !== "'"
+                ? 'two-' + value.toLowerCase()
+                : null
+            }
           >
             {value}
           </span>

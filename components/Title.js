@@ -26,7 +26,11 @@ export default function Title() {
         {content.split('').map((value, index) => (
           <span
             key={index}
-            className={value !== ' ' ? 'title-' + value.toLowerCase() : null}
+            className={
+              value !== ' ' && value !== '.' && value !== ',' && value !== "'"
+                ? 'title-' + value.toLowerCase()
+                : null
+            }
           >
             {value}
           </span>
