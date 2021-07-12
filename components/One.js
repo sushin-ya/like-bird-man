@@ -6,7 +6,7 @@ export default function One() {
   let one = useRef(null);
   let text = useRef(null);
   const content =
-    'IT COMES DOWN TO THE RAIN, THE SUNLIGHT, THE TRAFFIC, THE NIGHTS AND THE DAYS OF THE YEARS, THE FACES.';
+    "AS THE POEMS GO INTO THE THOUSANDS YOU REALIZE THAT YOU'VE CREATED VERY LITTLE.";
   useEffect(() => {
     let tl = gsap.timeline({
       scrollTrigger: {

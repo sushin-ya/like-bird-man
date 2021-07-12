@@ -6,7 +6,7 @@ export default function Two() {
   let two = useRef(null);
   let text = useRef(null);
   const content =
-    "AS THE POEMS GO INTO THE THOUSANDS YOU REALIZE THAT YOU'VE CREATED VERY LITTLE.";
+    'IT COMES DOWN TO THE RAIN, THE SUNLIGHT, THE TRAFFIC, THE NIGHTS AND THE DAYS OF THE YEARS, THE FACES.';
   useEffect(() => {
     let tl = gsap.timeline({
       scrollTrigger: {
