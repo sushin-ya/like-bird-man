@@ -14,12 +14,11 @@ export default function Two() {
         trigger: three,
         start: 'top top',
         end: 'center center',
-        // markers: true,
       },
     });
     textAnimation(tl, content, 'three');
     tl.fromTo(author, { opacity: 0 }, { opacity: 1, duration: 2, delay: 1 });
-  }, [text]);
+  }, [three]);
   return (
     <section className='three' ref={(el) => (three = el)}>
       <div className='text' ref={(el) => (text = el)}>

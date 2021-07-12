@@ -19,7 +19,7 @@ export default function Title() {
     });
     textAnimation(tl, content, 'title');
     tl.fromTo(icon, { opacity: 0 }, { opacity: 1 });
-  }, [text]);
+  }, [title]);
   return (
     <section className='title' ref={(el) => (title = el)}>
       <div ref={(el) => (text = el)}>

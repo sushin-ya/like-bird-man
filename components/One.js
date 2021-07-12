@@ -16,7 +16,7 @@ export default function One() {
       },
     });
     textAnimation(tl, content, 'one');
-  }, [text]);
+  }, [one]);
 
   return (
     <section className='one' ref={(el) => (one = el)}>
