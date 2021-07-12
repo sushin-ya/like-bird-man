@@ -32,7 +32,10 @@ export default function Title() {
           </span>
         ))}
       </div>
-      <a href='/#' ref={(el) => (icon = el)}>
+      <a
+        href='https://github.com/tsuka-ryu/like-bird-man'
+        ref={(el) => (icon = el)}
+      >
         <FontAwesomeIcon icon={faGithub} className='github' />
       </a>
     </section>
